@@ -278,6 +278,7 @@ section {
 
 #about {
   position: relative;
+  margin-top: auto;
 }
 
 .about-containers {
