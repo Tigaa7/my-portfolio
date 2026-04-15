@@ -161,7 +161,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  padding-bottom: 4vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -177,7 +177,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .section__pic-container {
@@ -301,9 +301,8 @@ section {
 }
 
 .arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  position: relative;
+  margin-top: 2rem;
 }
 
 .details-container {
@@ -318,7 +317,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: auto;
 }
 
 .section__pic-container {
@@ -400,7 +399,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 .contact-info-upper-container {
