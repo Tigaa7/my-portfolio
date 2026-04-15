@@ -278,7 +278,6 @@ section {
 
 #about {
   position: relative;
-  margin-top: auto;
 }
 
 .about-containers {
@@ -332,6 +331,7 @@ section {
 
 #experience {
   position: relative;
+  margin-top: auto;
 }
 
 .experience-sub-title {
